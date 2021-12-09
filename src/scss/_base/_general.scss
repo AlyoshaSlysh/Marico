@@ -1,3 +1,35 @@
 *, *::before, *::after {
   box-sizing: border-box;
 }
+
+* {
+  font-family: 'Poppins' serif;
+}
+
+img {
+  width: 100%;
+}
+
+.text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+h2 {
+  font-weight: 600;
+  font-size: 75px;
+  line-height: 112px;
+}
+
+.text_ {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 45px;
+}
+
+.text_next {
+  font-weight: 400;
+  font-size: 23px;
+  line-height: 34px;
+}
