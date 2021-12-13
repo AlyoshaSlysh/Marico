@@ -1,0 +1,76 @@
+.banner {
+    padding-top: 100px;
+    padding-bottom: 88px;
+    color: $white;
+
+    h1 {
+        font-weight: 700;
+        font-size: 112px;
+        line-height: 168px;
+        margin: 0;
+    }
+
+    picture {
+        max-width: 1313px;
+        margin-bottom: 36px;
+    }
+
+    .banner_info {
+        margin-top: 100px;
+
+        h5 {
+            margin-top: 0;
+            margin-bottom: 50px;
+            font-weight: 500;
+            font-size: 40px;
+            line-height: 60px;
+            max-width: 694px;
+            text-align: center;
+        }
+
+        .btns {
+            width: 100%;
+
+            button {
+                border-radius: 6px;
+                max-width: 312px;
+                width: 100%;
+                padding: 23px 20px 24px 20px;
+            }
+
+            .started {
+                background: $btn;
+                color: $white;
+                margin-right: 13px;
+            }
+
+            .demo {
+                margin-left: 13px;
+                border: 1px solid $grey;
+                background: none;
+                color: $grey;
+            }
+        }
+
+        p {
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 37px;
+            color: $grey;
+            max-width: 496px;
+
+            img {
+                max-width: 29px;
+            }
+
+            b {
+                font-weight: 700;
+                font-size: 25px;
+                line-height: 38px;
+                color: $white;
+                margin-left: 9px;
+                margin-right: 9px;
+            }
+        }
+    }
+}

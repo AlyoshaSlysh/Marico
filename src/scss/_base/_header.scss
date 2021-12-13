@@ -1,9 +1,114 @@
 header {
+    padding-top: 46px;
+    padding-bottom: 28px;
+
     picture {
         max-width: 196px;
     }
     
-    a {
+    nav {
+        max-width: 398px;
+        width: 100%;
+
+        .dropbtn {
+            border: none;
+            background: none;
+            color: $grey;
+            
+            .arrow {
+                max-width: 11px;
+                margin-left: 9px;
+            }
+        }
+        
+        .dropup {
+            position: relative;
+            display: inline-block;
+        }
+        
+        .dropup-content {
+            display: none;
+            position: absolute;
+            max-width: 142px;
+            width: 100%;
+            z-index: 1;
+        }
+        
+        .dropup-content a {
+            text-decoration: none;
+            display: block;
+        }
+        
+        .dropup:hover .dropup-content {
+            display: block;
+        }
+        
+        .dropup:hover .dropbtn {
+            background-color: $blue;
+            color: $white;
+        }
+
+        a {
+            color: $grey;            
+        }
+
+        a:hover {
+            background-color: $blue_btn;
+            color: $white;
+        }
+    }
+
+    a:hover {
+        background-color: $blue;
+    }
+
+    .login {
         color: $grey;
+        margin-right: 24px;
+    }
+
+    .sing_up {
+        border: none;
+        background: $blue_btn;
+        color: $white;
+        max-width: 119px;
+        border-radius: 6px;
+        padding: 12px 20px 13px 22px;
+    }
+
+    @media (min-width: 320px) {
+        padding-top: 10px;
+        padding-bottom: 7px;
+    }
+
+    @media (min-width: 576px) {
+        padding-top: 17px;
+        padding-bottom: 15px;
+    }
+
+    @media (min-width: 768px) {
+        padding-top: 25px;
+        padding-bottom: 17px;
+    }
+
+    @media (min-width: 992px) {
+        padding-top: 35px;
+        padding-bottom: 20px;
+    }
+
+    @media (min-width: 1200px) {
+        padding-top: 40px;
+        padding-bottom: 25px;
+    }
+
+    @media (min-width: 1400px) {
+        padding-top: 46px;
+        padding-bottom: 28px;
+    }
+
+    @media (min-width: 1600px) {
+    }
+
+    @media (min-width: 1700px) {
     }
 }
