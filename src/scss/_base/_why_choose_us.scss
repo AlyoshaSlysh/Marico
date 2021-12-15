@@ -1,0 +1,65 @@
+._why_choose_us {
+    padding-top: 100px;
+    text-align: center;
+    color: $white;
+    padding-bottom: 62px;
+
+    .df_sb_c {
+        gap: 20px;
+
+        .df_col_cent {
+            min-width: 270px;
+        }
+    }
+
+    h2 {
+        margin-bottom: 62px;
+    }
+
+    .smile {
+        max-width: 37px;
+    }
+
+    .happy {
+        max-width: 32px;
+    }
+
+    .party {
+        max-width: 43px;
+    }
+    
+    h3 {
+        font-weight: 600;
+        font-size: 15px;
+        line-height: 30px;
+        margin: 0 0 0 8px;
+
+        @media (min-width: 576px) {
+            font-size: 20px;
+            line-height: 35px;
+          }
+        
+          @media (min-width: 768px) {
+            font-size: 25px;
+            line-height: 40px;
+          }
+        
+          @media (min-width: 992px) {
+            font-size: 30px;
+            line-height: 45px;
+          }
+        
+          @media (min-width: 1200px) {
+            font-size: 35px;
+            line-height: 52px;
+          }
+    }
+
+    p {
+        font-weight: 600;
+        font-size: 22px;
+        line-height: 33px;
+        color: $grey;
+    }
+
+}

@@ -8,6 +8,7 @@
 
 body {
   background: $background_black;
+  color: $white;
 }
 
 .container {
@@ -69,8 +70,29 @@ img {
 
 h2 {
   font-weight: 600;
-  font-size: 75px;
-  line-height: 112px;
+  font-size: 35px;
+  line-height: 50px;
+  margin: 0;
+
+  @media (min-width: 576px) {
+    font-size: 40px;
+    line-height: 55px;
+  }
+
+  @media (min-width: 768px) {
+    font-size: 45px;
+    line-height: 65px;
+  }
+
+  @media (min-width: 992px) {
+    font-size: 60px;
+    line-height: 80px;
+  }
+
+  @media (min-width: 1200px) {
+    font-size: 75px;
+    line-height: 112px;
+  }
 }
 
 .text_ {
@@ -108,4 +130,12 @@ button {
 
 button:hover {
   opacity: 0.3;
+}
+
+h5 {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 38px;
+  color: $step;
+  margin: 0 auto;
 }
