@@ -1,0 +1,40 @@
+.step_2 {
+    .df_col_cent {
+        padding-top: 30px;
+        padding-bottom: 76px;
+
+        p {
+            color: $grey;
+        }
+    }
+
+    .df_sb_c {
+        padding-top: 33px;
+
+        div {
+            background: $background_b;
+            max-width: 854px;
+        }
+
+        span {
+            color: $green;
+        }
+
+        .grey {
+            color: $grey;
+        }
+
+        h3 {
+            margin: 0;
+        }
+
+        .one_link {
+            h3 {
+                font-weight: 600;
+                font-size: 80px;
+                line-height: 120px;
+            }
+            
+        }
+    }
+}

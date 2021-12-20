@@ -22,6 +22,67 @@
 
         h4 {
             margin: 0;
+            margin-bottom: 60px;
+        }
+        
+        .df_col_left{
+            h2 {
+                min-width: 547px;
+
+                b {
+                    color: $blue;
+                    margin-left: 16px;
+                }
+            }
+
+            p {
+                min-width: 686px;
+                img {
+                    max-width: 33px;
+                    margin-right: 12px;
+                }
+            }
+            
+            .btns {
+                margin-top: 66px;
+
+                a {
+                    border-radius: 10px;
+                    padding: 17px;
+                }
+                
+                .started {
+                    color: $white;
+                    background: $btn;
+                    border: none;
+                    margin-right: 24px;
+                }
+                
+                .demo {
+                    border: 1px solid $grey;
+                    color: $grey;
+                    padding-left: 36px;
+                    padding-right: 38px;
+                }
+            }
+        }
+
+        picture {
+            max-width: 890px;
+            position: relative;
+            z-index: 10;
+            margin-right: -125px;
+        }
+
+        picture::after {
+            content: "";
+            position: absolute;
+            background-image: url("../../images/shape.png");
+            min-width: 309px;
+            min-height: 276px;
+            bottom: -40px;
+            left: 35%;
+            z-index: -1;
         }
     }
 }
