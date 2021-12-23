@@ -1,40 +1,76 @@
 .step_2 {
-    .df_col_cent {
-        padding-top: 30px;
-        padding-bottom: 76px;
+  padding-bottom: 96px;
+  .df_col_cent {
+    padding-top: 30px;
+    padding-bottom: 76px;
 
-        p {
-            color: $grey;
-        }
+    p {
+      color: $grey;
+    }
+  }
+
+  .content {
+    text-align: center;
+  }
+
+  .df_sb_c {
+    padding-top: 33px;
+    align-items: normal;
+    gap: 23px;
+    margin-left: -70px;
+    margin-right: -69px;
+    margin-bottom: 50px;
+    text-align: left;
+
+    div {
+      background: $background_b;
+      max-width: 854px;
+      width: 100%;
     }
 
-    .df_sb_c {
-        padding-top: 33px;
-
-        div {
-            background: $background_b;
-            max-width: 854px;
-        }
-
-        span {
-            color: $green;
-        }
-
-        .grey {
-            color: $grey;
-        }
-
-        h3 {
-            margin: 0;
-        }
-
-        .one_link {
-            h3 {
-                font-weight: 600;
-                font-size: 80px;
-                line-height: 120px;
-            }
-            
-        }
+    span {
+      color: $green;
     }
+
+    .grey {
+      color: $grey;
+    }
+
+    h3 {
+      margin: 0;
+    }
+
+    .one_link {
+      padding: 33px 0 0 45px;
+
+      h3 {
+        font-weight: 600;
+        font-size: 80px;
+        line-height: 120px;
+      }
+    }
+
+    .subscribers {
+      padding: 34px 0 0 30px;
+
+      h3 {
+        max-width: 415px;
+        font-weight: 700;
+        font-size: 80px;
+        line-height: 93px;
+      }
+
+      .grey {
+        margin-top: 96px;
+      }
+    }
+  }
+
+  .btn {
+    background: $btn;
+    border: none;
+    border-radius: 10px;
+    padding: 22px 87px 22px 81px;
+    color: $white;
+  }
 }
