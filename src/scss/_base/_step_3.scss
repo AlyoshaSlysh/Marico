@@ -1,0 +1,76 @@
+.step_3 {
+    padding-top: 90px;
+    padding-bottom: 88px;
+    
+    h2 {
+        font-weight: 500;
+    }
+
+    .df_col_cent {
+        padding-bottom: 89px;
+        .text_ {
+            margin-top: 0;
+            color: $grey;
+            max-width: 914px;
+            text-align: center  ;
+        }
+    }
+
+    .content {
+        h2 {
+            max-width: 697px;
+            b {
+                font-weight: 600;
+                color: $btn;
+            }
+        }
+
+        .text_next {
+            img {
+                max-width: 33px;
+                margin-right: 11px;
+            }
+        }
+
+        picture {
+            max-width: 890px;
+            position: relative;
+            z-index: 10;
+            margin-right: -125px;
+        }
+
+        picture::after {
+            content: "";
+            position: absolute;
+            background-image: url("../../images/shape.png");
+            min-width: 309px;
+            min-height: 276px;
+            bottom: -40px;
+            left: 50%;
+            z-index: -1;
+        }
+
+        .btns {
+            margin-top: 66px;
+
+            a {
+                border-radius: 10px;
+                padding: 17px;
+            }
+            
+            .started {
+                color: $white;
+                background: $btn;
+                border: none;
+                margin-right: 24px;
+            }
+            
+            .demo {
+                border: 1px solid $grey;
+                color: $grey;
+                padding-left: 36px;
+                padding-right: 38px;
+            }
+        }
+    }
+}

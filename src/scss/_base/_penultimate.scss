@@ -1,0 +1,49 @@
+.penultimate {
+    padding-top: 100px;
+    padding-bottom: 84px;
+
+    picture {
+        max-width: 164px;
+        margin-bottom: 20px;
+    }
+
+    h2 {
+        font-weight: 700;
+        font-size: 100px;
+        line-height: 150px;
+        margin: 0;
+    }
+
+    button {
+        background: $btn;
+        color: $white;
+        padding: 29px 0 28px 0;
+        max-width: 472px;
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 26px;
+    }
+
+    p {
+        font-weight: 400;
+        font-size: 43px;
+        line-height: 64px;
+        margin: 0;
+
+        img {
+            max-width: 37px;
+        }
+    }
+
+    .df_c {
+        font-size: 38px;
+        line-height: 57px;
+        color: $grey;
+
+        b {
+            color: $white;
+            margin-left: 22px;
+            margin-right: 11px;
+        }
+    }
+}

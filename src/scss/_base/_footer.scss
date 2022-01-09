@@ -1,0 +1,45 @@
+footer {
+    padding-top: 100px;
+    padding-bottom: 96px;
+
+    .logo {
+        max-width: 223px;
+        
+        a {
+            color: $white;
+            font-weight: 800;
+            font-size: 42px;
+            line-height: 63px;
+
+            img {
+                max-width: 47px;
+            }
+        }
+
+        span {
+            a {
+                font-weight: normal;
+                font-size: 27px;
+                line-height: 40px;
+                color: $grey;
+            }
+        }
+    }
+
+    ul {
+        list-style: none;
+        max-width: 476px;
+        width: 100%;
+
+        a {
+            font-weight: 500;
+            font-size: 28px;
+            line-height: 42px;
+            color: $grey;
+        }
+
+        a:hover {
+            color: $btn;
+        }
+    }
+}

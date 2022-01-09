@@ -1,0 +1,29 @@
+.experts_agree {
+    padding-top: 100px;
+    padding-bottom: 88px;
+
+    picture {
+        max-width: 1826px;
+        margin-top: 52px;
+    }
+}
+
+.big_picture {
+    padding-top: 100px;
+    padding-bottom: 88px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    h2 {
+        position: absolute;
+        z-index: 10;
+        font-size: 70px;
+        line-height: 105px;
+    }
+
+    picture {
+        position: relative;
+        z-index: -1;
+    }
+}
